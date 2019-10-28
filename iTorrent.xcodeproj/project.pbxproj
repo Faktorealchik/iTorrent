@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7C06249720BD676500C7466C /* iTorrent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C06249620BD676500C7466C /* iTorrent.framework */; };
-		7C06249920BD676F00C7466C /* iTorrent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C06249620BD676500C7466C /* iTorrent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C06249920BD676F00C7466C /* iTorrent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C06249620BD676500C7466C /* iTorrent.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7C0D2F1D20F77F7100B7FBC6 /* FileManagerTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C0D2F1C20F77F7100B7FBC6 /* FileManagerTitleView.xib */; };
 		7C0D2F1F20F77F9B00B7FBC6 /* FileManagerTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0D2F1E20F77F9B00B7FBC6 /* FileManagerTitleView.swift */; };
 		7C10D34D232188C900B5ED9A /* PopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C10D34B232188C800B5ED9A /* PopupView.xib */; };
@@ -40,7 +40,6 @@
 		7C4B10AD20EA278900440E74 /* TrackersListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B10AC20EA278800440E74 /* TrackersListController.swift */; };
 		7C4B10AF20EA30C500440E74 /* TrackerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B10AE20EA30C500440E74 /* TrackerCell.swift */; };
 		7C4DB4E122AD457A00D45494 /* SegmentedProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4DB4E022AD457A00D45494 /* SegmentedProgressView.swift */; };
-		7C4FADE620B5D4CC00ED9C84 /* Pods_iTorrent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A3AF14FD004AAD8A489528 /* Pods_iTorrent.framework */; };
 		7C5D7684230335A4002E1352 /* FilesBrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D7683230335A4002E1352 /* FilesBrowserController.swift */; };
 		7C74B8522125BE4700988F1C /* NotificationNamesExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C74B8512125BE4700988F1C /* NotificationNamesExtention.swift */; };
 		7C7D0AB220D82AA0001B08E5 /* FolderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7D0AB120D82AA0001B08E5 /* FolderCell.swift */; };
@@ -72,6 +71,7 @@
 		7CF522EE20AF7B0300D319E6 /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7CF522ED20AF7B0200D319E6 /* 3.wav */; };
 		7CF5F59220AC325100A18C3E /* TorrentFilesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5F59120AC325100A18C3E /* TorrentFilesController.swift */; };
 		7CF5F59420AC86F600A18C3E /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5F59320AC86F500A18C3E /* MainController.swift */; };
+		8F64565149A83EFD1B399134 /* Pods_iTorrent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCD4305DD716F6E4E9DC2AB /* Pods_iTorrent.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -89,8 +89,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2AB0FBEC90700CD3DC82B13A /* Pods-iTorrent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTorrent.release.xcconfig"; path = "Pods/Target Support Files/Pods-iTorrent/Pods-iTorrent.release.xcconfig"; sourceTree = "<group>"; };
-		65A3AF14FD004AAD8A489528 /* Pods_iTorrent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTorrent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD84373A5426BD3A1A8EEB8 /* Pods-iTorrent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTorrent.debug.xcconfig"; path = "Target Support Files/Pods-iTorrent/Pods-iTorrent.debug.xcconfig"; sourceTree = "<group>"; };
+		76021A1B88D3B7DA7962029B /* Pods-iTorrent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTorrent.release.xcconfig"; path = "Target Support Files/Pods-iTorrent/Pods-iTorrent.release.xcconfig"; sourceTree = "<group>"; };
 		7C06249620BD676500C7466C /* iTorrent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iTorrent.framework; sourceTree = "<group>"; };
 		7C0D2F1C20F77F7100B7FBC6 /* FileManagerTitleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FileManagerTitleView.xib; sourceTree = "<group>"; };
 		7C0D2F1E20F77F9B00B7FBC6 /* FileManagerTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerTitleView.swift; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 		7CF522ED20AF7B0200D319E6 /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
 		7CF5F59120AC325100A18C3E /* TorrentFilesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorrentFilesController.swift; sourceTree = "<group>"; };
 		7CF5F59320AC86F500A18C3E /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
-		F5512C13E413E5718899B92C /* Pods-iTorrent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTorrent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTorrent/Pods-iTorrent.debug.xcconfig"; sourceTree = "<group>"; };
+		CBCD4305DD716F6E4E9DC2AB /* Pods_iTorrent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTorrent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,21 +167,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C4FADE620B5D4CC00ED9C84 /* Pods_iTorrent.framework in Frameworks */,
 				7C06249720BD676500C7466C /* iTorrent.framework in Frameworks */,
+				8F64565149A83EFD1B399134 /* Pods_iTorrent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6BC37F51D386D0DAAEDD08BC /* Pods */ = {
+		766C2F66409A62B16B22F9D2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F5512C13E413E5718899B92C /* Pods-iTorrent.debug.xcconfig */,
-				2AB0FBEC90700CD3DC82B13A /* Pods-iTorrent.release.xcconfig */,
+				6FD84373A5426BD3A1A8EEB8 /* Pods-iTorrent.debug.xcconfig */,
+				76021A1B88D3B7DA7962029B /* Pods-iTorrent.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		7C0D2F1B20F77F5200B7FBC6 /* CustomViews */ = {
@@ -222,7 +222,7 @@
 				7C3C693120A754FB0023396C /* iTorrent */,
 				7C3C693020A754FB0023396C /* Products */,
 				7C3C694420A75FBF0023396C /* Frameworks */,
-				6BC37F51D386D0DAAEDD08BC /* Pods */,
+				766C2F66409A62B16B22F9D2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -258,7 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				7C06249620BD676500C7466C /* iTorrent.framework */,
-				65A3AF14FD004AAD8A489528 /* Pods_iTorrent.framework */,
+				CBCD4305DD716F6E4E9DC2AB /* Pods_iTorrent.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -369,13 +369,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C3C694120A754FD0023396C /* Build configuration list for PBXNativeTarget "iTorrent" */;
 			buildPhases = (
-				DBBCCBC72A898D1AC5BBD608 /* [CP] Check Pods Manifest.lock */,
+				4BC92D076601780E8FBD34A8 /* [CP] Check Pods Manifest.lock */,
 				7C3C692B20A754FB0023396C /* Sources */,
+				BF38C1082367155100F073E5 /* minimum varesion */,
 				7C3C692C20A754FB0023396C /* Frameworks */,
+				B6D8F680CB45EFDD2C125B5D /* [CP] Embed Pods Frameworks */,
 				7C3C692D20A754FB0023396C /* Resources */,
-				2166940B46193AB32D6C3260 /* [CP] Embed Pods Frameworks */,
 				7C05FC0A20BBFB2E006E5CFC /* ShellScript */,
 				7C37071F20BD4F2000EE9F89 /* Embed Frameworks */,
+				BF38C1072367100800F073E5 /* Run a */,
 			);
 			buildRules = (
 			);
@@ -447,7 +449,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2166940B46193AB32D6C3260 /* [CP] Embed Pods Frameworks */ = {
+		4BC92D076601780E8FBD34A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTorrent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C05FC0A20BBFB2E006E5CFC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\"";
+		};
+		B6D8F680CB45EFDD2C125B5D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -464,36 +501,41 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iTorrent/Pods-iTorrent-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7C05FC0A20BBFB2E006E5CFC /* ShellScript */ = {
+		BF38C1072367100800F073E5 /* Run a */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
 			inputPaths = (
+			);
+			name = "Run a";
+			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\"";
+			shellScript = "echo \"Applying patch for https://github.com/tanersener/mobile-ffmpeg/issues/18\"\ncd \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\n\nINFO_PLIST_FILES=$(find . -name Info.plist | grep 'libswresample\\|libavfilter\\|libavformat\\|libavutil\\|libswscale\\|libavdevice\\|libavcodec\\|mobileffmpeg|iTorrent')\n\nfor INFO_PLIST in ${INFO_PLIST_FILES};\ndo\n        existing_key_line_number=$(sed -n '/MinimumOS/=' ${INFO_PLIST})\n        if [[ -z ${existing_key_line_number} ]]; then\n            sed -i .tmp \"s/<\\/dict/    <key>MinimumOSVersion<\\/key>\\\\\n    <string>13.0<\\/string>\\\\\n<\\/dict/g\" ${INFO_PLIST}\n            rm -f \"${INFO_PLIST}.tmp\"\n            echo \"Patch added MinimumOSVersion key & value at ${INFO_PLIST}\"\n        else\n            sed -i .tmp \"$((existing_key_line_number+1))s/.*/        <string>13.0<\\/string>/\" ${INFO_PLIST}\n            rm -f \"${INFO_PLIST}.tmp\"\n            echo \"Patch replaced MinimumOSVersion value at ${INFO_PLIST}\"\n        fi\ndone\n";
 		};
-		DBBCCBC72A898D1AC5BBD608 /* [CP] Check Pods Manifest.lock */ = {
+		BF38C1082367155100F073E5 /* minimum varesion */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+			inputFileListPaths = (
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			inputPaths = (
+			);
+			name = "minimum varesion";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iTorrent-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "echo \"Applying patch for https://github.com/tanersener/mobile-ffmpeg/issues/18\"\ncd \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\n\nINFO_PLIST_FILES=$(find . -name Info.plist | grep 'libswresample\\|libavfilter\\|libavformat\\|libavutil\\|libswscale\\|libavdevice\\|libavcodec\\|mobileffmpeg|iTorrent')\n\nfor INFO_PLIST in ${INFO_PLIST_FILES};\ndo\n        existing_key_line_number=$(sed -n '/MinimumOS/=' ${INFO_PLIST})\n        if [[ -z ${existing_key_line_number} ]]; then\n            sed -i .tmp \"s/<\\/dict/    <key>MinimumOSVersion<\\/key>\\\\\n    <string>13.0<\\/string>\\\\\n<\\/dict/g\" ${INFO_PLIST}\n            rm -f \"${INFO_PLIST}.tmp\"\n            echo \"Patch added MinimumOSVersion key & value at ${INFO_PLIST}\"\n        else\n            sed -i .tmp \"$((existing_key_line_number+1))s/.*/        <string>13.0<\\/string>/\" ${INFO_PLIST}\n            rm -f \"${INFO_PLIST}.tmp\"\n            echo \"Patch replaced MinimumOSVersion value at ${INFO_PLIST}\"\n        fi\ndone\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -709,17 +751,17 @@
 		};
 		7C3C694220A754FD0023396C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5512C13E413E5718899B92C /* Pods-iTorrent.debug.xcconfig */;
+			baseConfigurationReference = 6FD84373A5426BD3A1A8EEB8 /* Pods-iTorrent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iTorrent/iTorrent.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 14.0;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = D5UQ7XT49T;
+				DEVELOPMENT_TEAM = N8J47F6C66;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -735,7 +777,7 @@
 					"\"$(PROJECT_DIR)/iTorrent/Native Code/include\"",
 				);
 				INFOPLIST_FILE = iTorrent/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -745,13 +787,13 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				MARKETING_VERSION = 1.7.3;
+				MARKETING_VERSION = 1.0.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.nonamedude.iTorrent;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.nonamedude.iTorrent.exelo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "VS: WildCard Development";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/iTorrent.framework/Headers/iTorrent-Bridging-Header.h";
@@ -766,16 +808,16 @@
 		};
 		7C3C694320A754FD0023396C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AB0FBEC90700CD3DC82B13A /* Pods-iTorrent.release.xcconfig */;
+			baseConfigurationReference = 76021A1B88D3B7DA7962029B /* Pods-iTorrent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iTorrent/iTorrent.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 14.0;
-				DEVELOPMENT_TEAM = D5UQ7XT49T;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = N8J47F6C66;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)",
@@ -791,7 +833,7 @@
 					"\"$(PROJECT_DIR)/iTorrent/Native Code/include\"",
 				);
 				INFOPLIST_FILE = iTorrent/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -801,12 +843,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				MARKETING_VERSION = 1.7.3;
+				MARKETING_VERSION = 1.0.0;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.nonamedude.iTorrent;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.nonamedude.iTorrent.exelo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "VS: WildCard Development";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/iTorrent.framework/Headers/iTorrent-Bridging-Header.h";
